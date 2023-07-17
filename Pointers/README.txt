@@ -1,0 +1,1 @@
+Copy the desired pointer to the ui folder (1 level up), and name it arrow.cur

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Gauge item="Casting_Gauge">
+		<ScreenID>Gauge</ScreenID>
+		<!--<Font>3</Font> -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>32</CY>
+		</Size>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+			<R>240</R>
+			<G>0</G>
+			<B>240</B>
+		</FillTint>
+		<LinesFillTint>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>7</EQType>
+		<GaugeDrawTemplate>
+			<Fill>Custom_HP_Fill</Fill>
+		</GaugeDrawTemplate>
+	</Gauge>
+	<Label item="Casting_SpellName">
+		<ScreenID />
+		<EQType>134</EQType>
+		<Font>5</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text />
+		<Location>
+			<X>0</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>32</CY>
+		</Size>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Screen item="CastingWindow">
+		<!--<ScreenID/>-->
+		<!--<Font/>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>290</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>256</CX>
+			<CY>33</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>The Casting Bar</TooltipReference>
+		<DrawTemplate>WDT_Filigree2</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>Casting_Gauge</Pieces>
+		<Pieces>Casting_SpellName</Pieces>
+	</Screen>
+</XML>
