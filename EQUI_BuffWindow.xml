@@ -1,1487 +1,2106 @@
 <?xml version="1.0" encoding="us-ascii"?>
-  <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	<Button item="BW_Player_Buff_Template">
-		<ScreenID>Player_Buff_Template</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-		<Template>BDT_PlayerBuff</Template>
-		<DecalOffset>
-			<X>0</X>
-			<Y>0</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>25</CX>
-			<CY>25</CY>
-		</DecalSize>
-	</Button>
-	<TileLayoutBox item="BW_Buttons">
-		<ScreenID>Buff_Buttons</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>1</TopAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<BottomAnchorOffset>1</BottomAnchorOffset>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Style_Transparent>true</Style_Transparent>
-		<Spacing>0</Spacing>
-		<SecondarySpacing>0</SecondarySpacing>
-		<HorizontalFirst>true</HorizontalFirst>
-		<AnchorToTop>true</AnchorToTop>
-		<AnchorToLeft>true</AnchorToLeft>
-		<FirstPieceTemplate>true</FirstPieceTemplate>
-		<SnapToChildren>false</SnapToChildren>
-		<Style_Sizable>true</Style_Sizable>
-			<Pieces>BW_Player_Buff_Template</Pieces>
-	</TileLayoutBox>
-	<Label item="BW_Buff0_Place">
-		<ScreenID>Buff0Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-		<Text>1</Text>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-		<AlignLeft>true</AlignLeft>
-	</Label>
-	<Label item="BW_Buff1_Place">
-		<ScreenID>Buff1Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>2</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff2_Place">
-		<ScreenID>Buff2Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>3</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff3_Place">
-		<ScreenID>Buff3Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>4</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff4_Place">
-		<ScreenID>Buff4Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>5</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff5_Place">
-		<ScreenID>Buff5Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>6</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff6_Place">
-		<ScreenID>Buff6Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>7</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff7_Place">
-		<ScreenID>Buff7Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>8</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff8_Place">
-		<ScreenID>Buff8Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>9</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff9_Place">
-		<ScreenID>Buff9Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>10</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff10_Place">
-		<ScreenID>Buff10Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>11</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff11_Place">
-		<ScreenID>Buff11Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>12</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff12_Place">
-		<ScreenID>Buff12Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>13</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff13_Place">
-		<ScreenID>Buff13Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>14</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff14_Place">
-		<ScreenID>Buff14Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>15</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff15_Place">
-		<ScreenID>Buff15Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>16</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff16_Place">
-		<ScreenID>Buff16Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>17</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff17_Place">
-		<ScreenID>Buff17Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>18</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff18_Place">
-		<ScreenID>Buff18Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>19</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff19_Place">
-		<ScreenID>Buff19Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>20</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff20_Place">
-		<ScreenID>Buff20Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>21</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff21_Place">
-		<ScreenID>Buff21Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>22</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff22_Place">
-		<ScreenID>Buff22Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>23</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff23_Place">
-		<ScreenID>Buff23Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>24</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff24_Place">
-		<ScreenID>Buff24Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>25</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff25_Place">
-		<ScreenID>Buff25Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>26</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff26_Place">
-		<ScreenID>Buff26Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>27</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff27_Place">
-		<ScreenID>Buff27Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>28</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff28_Place">
-		<ScreenID>Buff28Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>29</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff29_Place">
-		<ScreenID>Buff29Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>30</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff30_Place">
-		<ScreenID>Buff30Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>31</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff31_Place">
-		<ScreenID>Buff31Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>32</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff32_Place">
-		<ScreenID>Buff32Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>33</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff33_Place">
-		<ScreenID>Buff33Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>34</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff34_Place">
-		<ScreenID>Buff34Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>35</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff35_Place">
-		<ScreenID>Buff35Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>36</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff36_Place">
-		<ScreenID>Buff36Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>37</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff37_Place">
-		<ScreenID>Buff37Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>38</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff38_Place">
-		<ScreenID>Buff38Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>39</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff39_Place">
-		<ScreenID>Buff39Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>40</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff40_Place">
-		<ScreenID>Buff40Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>41</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff41_Place">
-		<ScreenID>Buff41Place</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>42</Text>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<TileLayoutBox item="BW_Places">
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>1</TopAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<BottomAnchorOffset>1</BottomAnchorOffset>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Style_Transparent>true</Style_Transparent>
-		<Spacing>0</Spacing>
-		<SecondarySpacing>0</SecondarySpacing>
-		<HorizontalFirst>true</HorizontalFirst>
-		<AnchorToTop>true</AnchorToTop>
-		<AnchorToLeft>true</AnchorToLeft>
-		<FirstPieceTemplate>true</FirstPieceTemplate>
-		<SnapToChildren>false</SnapToChildren>
-		<Style_Sizable>true</Style_Sizable>
-		<Style_Tooltip>false</Style_Tooltip>
-			<Pieces>BW_Buff0_Place</Pieces>
-			<Pieces>BW_Buff1_Place</Pieces>
-			<Pieces>BW_Buff2_Place</Pieces>
-			<Pieces>BW_Buff3_Place</Pieces>
-			<Pieces>BW_Buff4_Place</Pieces>
-			<Pieces>BW_Buff5_Place</Pieces>
-			<Pieces>BW_Buff6_Place</Pieces>
-			<Pieces>BW_Buff7_Place</Pieces>
-			<Pieces>BW_Buff8_Place</Pieces>
-			<Pieces>BW_Buff9_Place</Pieces>
-			<Pieces>BW_Buff10_Place</Pieces>
-			<Pieces>BW_Buff11_Place</Pieces>
-			<Pieces>BW_Buff12_Place</Pieces>
-			<Pieces>BW_Buff13_Place</Pieces>
-			<Pieces>BW_Buff14_Place</Pieces>
-			<Pieces>BW_Buff15_Place</Pieces>
-			<Pieces>BW_Buff16_Place</Pieces>
-			<Pieces>BW_Buff17_Place</Pieces>
-			<Pieces>BW_Buff18_Place</Pieces>
-			<Pieces>BW_Buff19_Place</Pieces>
-			<Pieces>BW_Buff20_Place</Pieces>
-			<Pieces>BW_Buff21_Place</Pieces>
-			<Pieces>BW_Buff22_Place</Pieces>
-			<Pieces>BW_Buff23_Place</Pieces>
-			<Pieces>BW_Buff24_Place</Pieces>
-			<Pieces>BW_Buff25_Place</Pieces>
-			<Pieces>BW_Buff26_Place</Pieces>
-			<Pieces>BW_Buff27_Place</Pieces>
-			<Pieces>BW_Buff28_Place</Pieces>
-			<Pieces>BW_Buff29_Place</Pieces>
-			<Pieces>BW_Buff30_Place</Pieces>
-			<Pieces>BW_Buff31_Place</Pieces>
-			<Pieces>BW_Buff32_Place</Pieces>
-			<Pieces>BW_Buff33_Place</Pieces>
-			<Pieces>BW_Buff34_Place</Pieces>
-			<Pieces>BW_Buff35_Place</Pieces>
-			<Pieces>BW_Buff36_Place</Pieces>
-			<Pieces>BW_Buff37_Place</Pieces>
-			<Pieces>BW_Buff38_Place</Pieces>
-			<Pieces>BW_Buff39_Place</Pieces>
-			<Pieces>BW_Buff40_Place</Pieces>
-			<Pieces>BW_Buff41_Place</Pieces>
-	</TileLayoutBox>
-	<Label item="BW_Buff_FrontSpacer">
-		<ScreenID>BuffFrontSpacer</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>22</CX>
-			<CY>25</CY>
-		</Size>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff_BackSpacer">
-		<ScreenID>BuffBackSpacer</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>171</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>15</CX>
-			<CY>25</CY>
-		</Size>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="BW_Buff0_Label">
-		<ScreenID>Buff0Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>500</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_00_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff0_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff1_Label">
-		<ScreenID>Buff1Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>501</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_01_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff1_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff2_Label">
-		<ScreenID>Buff2Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>502</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_02_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff2_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff3_Label">
-		<ScreenID>Buff3Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>503</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_03_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff3_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff4_Label">
-		<ScreenID>Buff4Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>504</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_04_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff4_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff5_Label">
-		<ScreenID>Buff5Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>505</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_05_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff5_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff6_Label">
-		<ScreenID>Buff6Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>506</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_06_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff6_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff7_Label">
-		<ScreenID>Buff7Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>507</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_07_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff7_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff8_Label">
-		<ScreenID>Buff8Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>508</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_08_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff8_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff9_Label">
-		<ScreenID>Buff9Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>509</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_09_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff9_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff10_Label">
-		<ScreenID>Buff10Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>510</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_10_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff10_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff11_Label">
-		<ScreenID>Buff11Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>511</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_11_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff11_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff12_Label">
-		<ScreenID>Buff12Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>512</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_12_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff12_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff13_Label">
-		<ScreenID>Buff13Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>513</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_13_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff13_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff14_Label">
-		<ScreenID>Buff14Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>514</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_14_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff14_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff15_Label">
-		<ScreenID>Buff15Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>515</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_15_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff15_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff16_Label">
-		<ScreenID>Buff16Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>516</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_16_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff16_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff17_Label">
-		<ScreenID>Buff17Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>517</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_17_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff17_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff18_Label">
-		<ScreenID>Buff18Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>518</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_18_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff18_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff19_Label">
-		<ScreenID>Buff19Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>519</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_19_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff19_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff20_Label">
-		<ScreenID>Buff20Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>520</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_20_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff20_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff21_Label">
-		<ScreenID>Buff21Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>521</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_21_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff21_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff22_Label">
-		<ScreenID>Buff22Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>522</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_22_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff22_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff23_Label">
-		<ScreenID>Buff23Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>523</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_23_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff23_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff24_Label">
-		<ScreenID>Buff24Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>524</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_24_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff24_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff25_Label">
-		<ScreenID>Buff25Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>525</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_25_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff25_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff26_Label">
-		<ScreenID>Buff26Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>526</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_26_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff26_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff27_Label">
-		<ScreenID>Buff27Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>527</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_27_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff27_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff28_Label">
-		<ScreenID>Buff28Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>528</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_28_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff28_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff29_Label">
-		<ScreenID>Buff29Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>529</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_29_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff29_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff30_Label">
-		<ScreenID>Buff30Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>530</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_30_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff30_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff31_Label">
-		<ScreenID>Buff31Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>531</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_31_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff31_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff32_Label">
-		<ScreenID>Buff32Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>532</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_32_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff32_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff33_Label">
-		<ScreenID>Buff33Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>533</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_33_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff33_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff34_Label">
-		<ScreenID>Buff34Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>534</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_34_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff34_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff35_Label">
-		<ScreenID>Buff35Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>535</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_35_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff35_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff36_Label">
-		<ScreenID>Buff36Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>536</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_36_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff36_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff37_Label">
-		<ScreenID>Buff37Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>537</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_37_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff37_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff38_Label">
-		<ScreenID>Buff38Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>538</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_38_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff38_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff39_Label">
-		<ScreenID>Buff39Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>539</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_39_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff39_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff40_Label">
-		<ScreenID>Buff40Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>540</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_40_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff40_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<Label item="BW_Buff41_Label">
-		<ScreenID>Buff41Label</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>26</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>145</CX>
-			<CY>25</CY>
-		</Size>
-		<EQType>541</EQType>
-		<NoWrap>true</NoWrap>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Screen item="BW_41_Screen">
-		<Size>
-			<CX>190</CX>
-			<CY>25</CY>
-		</Size>
-			<Pieces>BW_Buff_FrontSpacer</Pieces>
-			<Pieces>BW_Buff41_Label</Pieces>
-			<Pieces>BW_Buff_BackSpacer</Pieces>
-	</Screen>
-	<TileLayoutBox item="BW_Labels">
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>1</TopAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<BottomAnchorOffset>1</BottomAnchorOffset>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Style_Transparent>true</Style_Transparent>
-		<Spacing>0</Spacing>
-		<SecondarySpacing>0</SecondarySpacing>
-		<HorizontalFirst>true</HorizontalFirst>
-		<AnchorToTop>true</AnchorToTop>
-		<AnchorToLeft>true</AnchorToLeft>
-		<FirstPieceTemplate>true</FirstPieceTemplate>
-		<SnapToChildren>false</SnapToChildren>
-		<Style_Sizable>true</Style_Sizable>
-		<Style_Tooltip>false</Style_Tooltip>
-			<Pieces>Screen:BW_00_Screen</Pieces>
-			<Pieces>Screen:BW_01_Screen</Pieces>
-			<Pieces>Screen:BW_02_Screen</Pieces>
-			<Pieces>Screen:BW_03_Screen</Pieces>
-			<Pieces>Screen:BW_04_Screen</Pieces>
-			<Pieces>Screen:BW_05_Screen</Pieces>
-			<Pieces>Screen:BW_06_Screen</Pieces>
-			<Pieces>Screen:BW_07_Screen</Pieces>
-			<Pieces>Screen:BW_08_Screen</Pieces>
-			<Pieces>Screen:BW_09_Screen</Pieces>
-			<Pieces>Screen:BW_10_Screen</Pieces>
-			<Pieces>Screen:BW_11_Screen</Pieces>
-			<Pieces>Screen:BW_12_Screen</Pieces>
-			<Pieces>Screen:BW_13_Screen</Pieces>
-			<Pieces>Screen:BW_14_Screen</Pieces>
-			<Pieces>Screen:BW_15_Screen</Pieces>
-			<Pieces>Screen:BW_16_Screen</Pieces>
-			<Pieces>Screen:BW_17_Screen</Pieces>
-			<Pieces>Screen:BW_18_Screen</Pieces>
-			<Pieces>Screen:BW_19_Screen</Pieces>
-			<Pieces>Screen:BW_20_Screen</Pieces>
-			<Pieces>Screen:BW_21_Screen</Pieces>
-			<Pieces>Screen:BW_22_Screen</Pieces>
-			<Pieces>Screen:BW_23_Screen</Pieces>
-			<Pieces>Screen:BW_24_Screen</Pieces>
-			<Pieces>Screen:BW_25_Screen</Pieces>
-			<Pieces>Screen:BW_26_Screen</Pieces>
-			<Pieces>Screen:BW_27_Screen</Pieces>
-			<Pieces>Screen:BW_28_Screen</Pieces>
-			<Pieces>Screen:BW_29_Screen</Pieces>
-			<Pieces>Screen:BW_30_Screen</Pieces>
-			<Pieces>Screen:BW_31_Screen</Pieces>
-			<Pieces>Screen:BW_32_Screen</Pieces>
-			<Pieces>Screen:BW_33_Screen</Pieces>
-			<Pieces>Screen:BW_34_Screen</Pieces>
-			<Pieces>Screen:BW_35_Screen</Pieces>
-			<Pieces>Screen:BW_36_Screen</Pieces>
-			<Pieces>Screen:BW_37_Screen</Pieces>
-			<Pieces>Screen:BW_38_Screen</Pieces>
-			<Pieces>Screen:BW_39_Screen</Pieces>
-			<Pieces>Screen:BW_40_Screen</Pieces>
-			<Pieces>Screen:BW_41_Screen</Pieces>
-	</TileLayoutBox>
-	<LayoutStrategy item="BW_Snap_Both">
-		<Padding>0</Padding>
-		<ResizeHorizontal>true</ResizeHorizontal>
-		<ResizeVertical>true</ResizeVertical>
-	</LayoutStrategy>
-	<Screen item="BuffWindow">
-		<RelativePosition>false</RelativePosition>
-		<Location>
-			<X>415</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>104</CX>
-			<CY>395</CY>
-		</Size>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<Layout>BW_Snap_Both</Layout>
-		<Style_Transparent>true</Style_Transparent>
-		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Closebox>true</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
-		<Style_Sizable>true</Style_Sizable>
-		<Style_ClientMovable>true</Style_ClientMovable>
-		<Escapable>false</Escapable>
-			<Pieces>TileLayoutBox:BW_Places</Pieces>
-			<Pieces>TileLayoutBox:BW_Buttons</Pieces>
-			<Pieces>TileLayoutBox:BW_Labels</Pieces>
-	</Screen>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <!-- New Templates for March 2022 Patch -->
+  <Button item="BW_Player_Buff_Template">
+    <ScreenID>Player_Buff_Template</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Template>BDT_PlayerBuff</Template>
+    <DecalOffset>
+      <X>2</X>
+      <Y>2</Y>
+    </DecalOffset>
+    <DecalSize>
+      <CX>40</CX>
+      <CY>40</CY>
+    </DecalSize>
+  </Button>
+  <TileLayoutBox item="BW_Buttons">
+    <ScreenID>Buff_Buttons</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>true</AutoStretch>
+    <BottomAnchorToTop>false</BottomAnchorToTop>
+    <RightAnchorToLeft>false</RightAnchorToLeft>
+    <Style_Transparent>true</Style_Transparent>
+    <Spacing>0</Spacing>
+    <SecondarySpacing>0</SecondarySpacing>
+    <HorizontalFirst>false</HorizontalFirst>
+    <AnchorToTop>true</AnchorToTop>
+    <AnchorToLeft>false</AnchorToLeft>
+    <FirstPieceTemplate>true</FirstPieceTemplate>
+    <Pieces>BW_Player_Buff_Template</Pieces>
+  </TileLayoutBox>
+  <!-- Created by Drakah -->
+  <TextureInfo item="drakah_buffbackground.tga">
+    <Size>
+      <CX>256</CX>
+      <CY>256</CY>
+    </Size>
+  </TextureInfo>
+  <Ui2DAnimation item="Drak_BuffBackground">
+    <Frames>
+      <Texture>drakah_buffbackground.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+      <Size>
+        <CX>225</CX>
+        <CY>84</CY>
+      </Size>
+      <Hotspot>
+        <X>0</X>
+        <Y>0</Y>
+      </Hotspot>
+    </Frames>
+  </Ui2DAnimation>
+  <!-- The background image contains 5 tiles with a total width of 225.  Increase counts here as needed to cover all buff slots. -->
+  <StaticAnimation item="Drak_BuffBack1">
+    <ScreenID>Drak_BuffBack1</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>40</X>
+      <Y>-1</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack2">
+    <ScreenID>Drak_BuffBack2</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>260</X>
+      <Y>-1</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack3">
+    <ScreenID>Drak_BuffBack3</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>479</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack4">
+    <ScreenID>Drak_BuffBack4</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>699</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack5">
+    <ScreenID>Drak_BuffBack5</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>918</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack6">
+    <ScreenID>Drak_BuffBack6</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>1139</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack7">
+    <ScreenID>Drak_BuffBack6</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>1360</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack8">
+    <ScreenID>Drak_BuffBack6</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>1581</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="Drak_BuffBack9">
+    <ScreenID>Drak_BuffBack6</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>1800</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>225</CX>
+      <CY>84</CY>
+    </Size>
+    <Animation>Drak_BuffBackground</Animation>
+  </StaticAnimation>
+  <!-- Buff 1 -->
+  <Label item="BW_Buff0_Label">
+    <ScreenID>BW_Buff0_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>500</EQType>
+    <Location>
+      <X>1847</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TopAnchorToTop>true</TopAnchorToTop>
+  </Label>
+  <Label item="BW_Buff0_Place">
+    <ScreenID>BWBuff0Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1864</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>1</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 1 End -->
+  <!-- Buff 2 -->
+  <Label item="BW_Buff1_Label">
+    <ScreenID>BW_Buff1_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>501</EQType>
+    <Location>
+      <X>1803</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+      <Alpha>255</Alpha>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff1_Place">
+    <ScreenID>BWBuff1Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1820</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>2</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 2 End -->
+  <!-- Buff 3 -->
+  <Label item="BW_Buff2_Label">
+    <ScreenID>BW_Buff2_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>502</EQType>
+    <Location>
+      <X>1759</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff2_Place">
+    <ScreenID>BWBuff2Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1776</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>3</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 3 End -->
+  <!-- Buff 4 -->
+  <Label item="BW_Buff3_Label">
+    <ScreenID>BW_Buff3_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>503</EQType>
+    <Location>
+      <X>1715</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff3_Place">
+    <ScreenID>BWBuff3Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1732</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>4</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 4 End -->
+  <!-- Buff 5 -->
+  <Label item="BW_Buff4_Label">
+    <ScreenID>BW_Buff4_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>504</EQType>
+    <Location>
+      <X>1671</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff4_Place">
+    <ScreenID>BWBuff4Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1688</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>5</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 5 End -->
+  <!-- Buff 6 -->
+  <Label item="BW_Buff5_Label">
+    <ScreenID>BW_Buff5_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>505</EQType>
+    <Location>
+      <X>1627</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff5_Place">
+    <ScreenID>BWBuff5Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1644</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>6</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 6 End -->
+  <!-- Buff 7 -->
+  <Label item="BW_Buff6_Label">
+    <ScreenID>BW_Buff6_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>506</EQType>
+    <Location>
+      <X>1583</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff6_Place">
+    <ScreenID>BWBuff6Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1600</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>7</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 7 End -->
+  <!-- Buff 8 -->
+  <Label item="BW_Buff7_Label">
+    <ScreenID>BW_Buff7_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>507</EQType>
+    <Location>
+      <X>1539</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff7_Place">
+    <ScreenID>BWBuff7Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1556</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>8</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 8 End -->
+  <!-- Buff 9 -->
+  <Label item="BW_Buff8_Label">
+    <ScreenID>BW_Buff8_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>508</EQType>
+    <Location>
+      <X>1495</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff8_Place">
+    <ScreenID>BWBuff8Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1512</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>9</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 9 -->
+  <!-- Buff 10 -->
+  <Label item="BW_Buff9_Label">
+    <ScreenID>BW_Buff9_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>509</EQType>
+    <Location>
+      <X>1451</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff9_Place">
+    <ScreenID>BWBuff9Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1468</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>10</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 10 End -->
+  <!-- Buff 11 -->
+  <Label item="BW_Buff10_Label">
+    <ScreenID>BW_Buff10_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>510</EQType>
+    <Location>
+      <X>1407</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+    <LeftAnchorToLeft>true</LeftAnchorToLeft>
+  </Label>
+  <Label item="BW_Buff10_Place">
+    <ScreenID>BWBuff10Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1424</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>11</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 11 End -->
+  <!-- Buff 12 -->
+  <Label item="BW_Buff11_Label">
+    <ScreenID>BW_Buff11_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>511</EQType>
+    <Location>
+      <X>1363</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff11_Place">
+    <ScreenID>BWBuff11Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1380</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>12</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 12 End -->
+  <!-- Buff 13 -->
+  <Label item="BW_Buff12_Label">
+    <ScreenID>BW_Buff12_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>512</EQType>
+    <Location>
+      <X>1319</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff12_Place">
+    <ScreenID>BWBuff12Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1336</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>13</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 13 End -->
+  <!-- Buff 14 -->
+  <Label item="BW_Buff13_Label">
+    <ScreenID>BW_Buff13_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>513</EQType>
+    <Location>
+      <X>1275</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff13_Place">
+    <ScreenID>BWBuff13Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1292</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>14</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 14 End -->
+  <!-- Buff 15 -->
+  <Label item="BW_Buff14_Label">
+    <ScreenID>BW_Buff14_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>514</EQType>
+    <Location>
+      <X>1231</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff14_Place">
+    <ScreenID>BWBuff14Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1248</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>15</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 15 End -->
+  <!-- Buff 16 -->
+  <Label item="BW_Buff15_Label">
+    <ScreenID>BW_Buff15_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>515</EQType>
+    <Location>
+      <X>1187</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff15_Place">
+    <ScreenID>BWBuff15Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1204</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>16</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 16 End -->
+  <!-- Buff 17 -->
+  <Label item="BW_Buff16_Label">
+    <ScreenID>BW_Buff16_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>516</EQType>
+    <Location>
+      <X>1143</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff16_Place">
+    <ScreenID>BWBuff16Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1160</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>17</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 17 End -->
+  <!-- Buff 18 -->
+  <Label item="BW_Buff17_Label">
+    <ScreenID>BW_Buff17_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>517</EQType>
+    <Location>
+      <X>1099</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff17_Place">
+    <ScreenID>BWBuff17Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1116</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>18</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 18 End -->
+  <!-- Buff 19 -->
+  <Label item="BW_Buff18_Label">
+    <ScreenID>BW_Buff18_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>518</EQType>
+    <Location>
+      <X>1055</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff18_Place">
+    <ScreenID>BWBuff18Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1072</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>19</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 19 End -->
+  <!-- Buff 20 -->
+  <Label item="BW_Buff19_Label">
+    <ScreenID>BW_Buff19_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>519</EQType>
+    <Location>
+      <X>1011</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff19_Place">
+    <ScreenID>BWBuff19Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>1028</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>20</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 21 End -->
+  <!-- Buff 22 -->
+  <Label item="BW_Buff20_Label">
+    <ScreenID>BW_Buff20_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>520</EQType>
+    <Location>
+      <X>967</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff20_Place">
+    <ScreenID>BWBuff20Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>984</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>21</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 21 End -->
+  <!-- Buff 22 -->
+  <Label item="BW_Buff21_Label">
+    <ScreenID>BW_Buff21_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>521</EQType>
+    <Location>
+      <X>923</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff21_Place">
+    <ScreenID>BWBuff21Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>940</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>22</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 22 End -->
+  <!-- Buff 23 -->
+  <Label item="BW_Buff22_Label">
+    <ScreenID>BW_Buff22_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>522</EQType>
+    <Location>
+      <X>879</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff22_Place">
+    <ScreenID>BWBuff22Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>896</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>23</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 23 End -->
+  <!-- Buff 24 -->
+  <Label item="BW_Buff23_Label">
+    <ScreenID>BW_Buff23_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>523</EQType>
+    <Location>
+      <X>835</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff23_Place">
+    <ScreenID>BWBuff23Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>852</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>24</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 24 End -->
+  <!-- Buff 25 -->
+  <Label item="BW_Buff24_Label">
+    <ScreenID>BW_Buff24_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>524</EQType>
+    <Location>
+      <X>791</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff24_Place">
+    <ScreenID>BWBuff24Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>808</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>25</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 25 End -->
+  <!-- Buff 26 -->
+  <Label item="BW_Buff25_Label">
+    <ScreenID>BW_Buff25_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>525</EQType>
+    <Location>
+      <X>747</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff25_Place">
+    <ScreenID>BWBuff25Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>764</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>26</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 26 End -->
+  <!-- Buff 27 -->
+  <Label item="BW_Buff26_Label">
+    <ScreenID>BW_Buff26_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>526</EQType>
+    <Location>
+      <X>703</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff26_Place">
+    <ScreenID>BWBuff26Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>720</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>27</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 27 End -->
+  <!-- Buff 28 -->
+  <Label item="BW_Buff27_Label">
+    <ScreenID>BW_Buff27_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>527</EQType>
+    <Location>
+      <X>659</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff27_Place">
+    <ScreenID>BWBuff27Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>676</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>28</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 28 End -->
+  <!-- Buff 29 -->
+  <Label item="BW_Buff28_Label">
+    <ScreenID>BW_Buff28_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>528</EQType>
+    <Location>
+      <X>615</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff28_Place">
+    <ScreenID>BWBuff28Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>632</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>29</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 29 End -->
+  <!-- Buff 30 -->
+  <Label item="BW_Buff29_Label">
+    <ScreenID>BW_Buff29_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>529</EQType>
+    <Location>
+      <X>571</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff29_Place">
+    <ScreenID>BWBuff29Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>588</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>30</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 30 End -->
+  <!-- Buff 31 -->
+  <Label item="BW_Buff30_Label">
+    <ScreenID>BW_Buff30_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>530</EQType>
+    <Location>
+      <X>527</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff30_Place">
+    <ScreenID>BWBuff30Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>544</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>31</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 31 End -->
+  <!-- Buff 32 -->
+  <Label item="BW_Buff31_Label">
+    <ScreenID>BW_Buff31_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>531</EQType>
+    <Location>
+      <X>483</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff31_Place">
+    <ScreenID>BWBuff31Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>500</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>32</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 32 End -->
+  <!-- Buff 33 -->
+  <Label item="BW_Buff32_Label">
+    <ScreenID>BW_Buff32_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>532</EQType>
+    <Location>
+      <X>439</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff32_Place">
+    <ScreenID>BWBuff32Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>456</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>33</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 33 End -->
+  <!-- Buff 34 -->
+  <Label item="BW_Buff33_Label">
+    <ScreenID>BW_Buff33_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>533</EQType>
+    <Location>
+      <X>395</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff33_Place">
+    <ScreenID>BWBuff33Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>412</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>34</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 34 End -->
+  <!-- Buff 35 -->
+  <Label item="BW_Buff34_Label">
+    <ScreenID>BW_Buff34_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>534</EQType>
+    <Location>
+      <X>351</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff34_Place">
+    <ScreenID>BWBuff34Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>368</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>35</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 35 End -->
+  <!-- Buff 36 -->
+  <Label item="BW_Buff35_Label">
+    <ScreenID>BW_Buff35_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>535</EQType>
+    <Location>
+      <X>307</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff35_Place">
+    <ScreenID>BWBuff35Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>324</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>36</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 36 End -->
+  <!-- Buff 37 -->
+  <Label item="BW_Buff36_Label">
+    <ScreenID>BW_Buff36_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>536</EQType>
+    <Location>
+      <X>263</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff36_Place">
+    <ScreenID>BWBuff36Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>280</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>37</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 37 End -->
+  <!-- Buff 38 -->
+  <Label item="BW_Buff37_Label">
+    <ScreenID>BW_Buff37_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>537</EQType>
+    <Location>
+      <X>219</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff37_Place">
+    <ScreenID>BWBuff37Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>236</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>38</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 38 End -->
+  <!-- Buff 39 -->
+  <Label item="BW_Buff38_Label">
+    <ScreenID>BW_Buff38_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>538</EQType>
+    <Location>
+      <X>175</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff38_Place">
+    <ScreenID>BWBuff38Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>192</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>39</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 39 End -->
+  <!-- Buff 40 -->
+  <Label item="BW_Buff39_Label">
+    <ScreenID>BW_Buff39_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>539</EQType>
+    <Location>
+      <X>131</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff39_Place">
+    <ScreenID>BWBuff39Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>148</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>40</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 40 End -->
+  <!-- Buff 41 -->
+  <Label item="BW_Buff40_Label">
+    <ScreenID>BW_Buff40_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>540</EQType>
+    <Location>
+      <X>87</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff40_Place">
+    <ScreenID>BWBuff40Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>104</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>41</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 41 End -->
+  <!-- Buff 42 -->
+  <Label item="BW_Buff41_Label">
+    <ScreenID>BW_Buff41_Label</ScreenID>
+    <Font>1</Font>
+    <EQType>541</EQType>
+    <Location>
+      <X>43</X>
+      <Y>47</Y>
+    </Location>
+    <Size>
+      <CX>44</CX>
+      <CY>44</CY>
+    </Size>
+    <Text>Katta's Song of Sword Dancing</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <AlignCenter>true</AlignCenter>
+  </Label>
+  <Label item="BW_Buff41_Place">
+    <ScreenID>BWBuff41Place</ScreenID>
+    <Font>1</Font>
+    <Location>
+      <X>60</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>10</CX>
+      <CY>10</CY>
+    </Size>
+    <Text>42</Text>
+    <TextColor>
+      <R>197</R>
+      <G>183</G>
+      <B>173</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <!-- Buff 42 End -->
+  <Screen item="BuffWindow">
+    <!--<ScreenID/>-->
+    <Text>Effects</Text>
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>415</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>1890</CX>
+      <CY>84</CY>
+    </Size>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>false</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Style_ClientMovable>true</Style_ClientMovable>
+    <Pieces>Drak_BuffBack1</Pieces>
+    <Pieces>Drak_BuffBack2</Pieces>
+    <Pieces>Drak_BuffBack3</Pieces>
+    <Pieces>Drak_BuffBack4</Pieces>
+    <Pieces>Drak_BuffBack5</Pieces>
+    <Pieces>Drak_BuffBack6</Pieces>
+    <Pieces>Drak_BuffBack7</Pieces>
+    <Pieces>Drak_BuffBack8</Pieces>
+    <Pieces>Drak_BuffBack9</Pieces>
+    <Pieces>TileLayoutBox:BW_Buttons</Pieces>
+    <Pieces>BW_Buff0_Label</Pieces>
+    <Pieces>BW_Buff1_Label</Pieces>
+    <Pieces>BW_Buff2_Label</Pieces>
+    <Pieces>BW_Buff3_Label</Pieces>
+    <Pieces>BW_Buff4_Label</Pieces>
+    <Pieces>BW_Buff5_Label</Pieces>
+    <Pieces>BW_Buff6_Label</Pieces>
+    <Pieces>BW_Buff7_Label</Pieces>
+    <Pieces>BW_Buff8_Label</Pieces>
+    <Pieces>BW_Buff9_Label</Pieces>
+    <Pieces>BW_Buff10_Label</Pieces>
+    <Pieces>BW_Buff11_Label</Pieces>
+    <Pieces>BW_Buff12_Label</Pieces>
+    <Pieces>BW_Buff13_Label</Pieces>
+    <Pieces>BW_Buff14_Label</Pieces>
+    <!-- <Pieces>BW_Buff15_Label</Pieces>
+    <Pieces>BW_Buff16_Label</Pieces>
+    <Pieces>BW_Buff17_Label</Pieces>
+    <Pieces>BW_Buff18_Label</Pieces>
+    <Pieces>BW_Buff19_Label</Pieces>
+    <Pieces>BW_Buff20_Label</Pieces>
+    <Pieces>BW_Buff21_Label</Pieces>
+    <Pieces>BW_Buff22_Label</Pieces>
+    <Pieces>BW_Buff23_Label</Pieces>
+    <Pieces>BW_Buff24_Label</Pieces>
+    <Pieces>BW_Buff25_Label</Pieces>
+    <Pieces>BW_Buff26_Label</Pieces>
+    <Pieces>BW_Buff27_Label</Pieces>
+    <Pieces>BW_Buff28_Label</Pieces>
+    <Pieces>BW_Buff29_Label</Pieces>
+    <Pieces>BW_Buff30_Label</Pieces>
+    <Pieces>BW_Buff31_Label</Pieces>
+    <Pieces>BW_Buff32_Label</Pieces>
+    <Pieces>BW_Buff33_Label</Pieces>
+    <Pieces>BW_Buff34_Label</Pieces>
+    <Pieces>BW_Buff35_Label</Pieces>
+    <Pieces>BW_Buff36_Label</Pieces>
+    <Pieces>BW_Buff37_Label</Pieces>
+    <Pieces>BW_Buff38_Label</Pieces>
+    <Pieces>BW_Buff39_Label</Pieces>
+    <Pieces>BW_Buff40_Label</Pieces>
+    <Pieces>BW_Buff41_Label</Pieces> -->
+    <Pieces>BW_Buff0_Place</Pieces>
+    <Pieces>BW_Buff1_Place</Pieces>
+    <Pieces>BW_Buff2_Place</Pieces>
+    <Pieces>BW_Buff3_Place</Pieces>
+    <Pieces>BW_Buff4_Place</Pieces>
+    <Pieces>BW_Buff5_Place</Pieces>
+    <Pieces>BW_Buff6_Place</Pieces>
+    <Pieces>BW_Buff7_Place</Pieces>
+    <Pieces>BW_Buff8_Place</Pieces>
+    <Pieces>BW_Buff9_Place</Pieces>
+    <Pieces>BW_Buff10_Place</Pieces>
+    <Pieces>BW_Buff11_Place</Pieces>
+    <Pieces>BW_Buff12_Place</Pieces>
+    <Pieces>BW_Buff13_Place</Pieces>
+    <Pieces>BW_Buff14_Place</Pieces>
+    <!-- <Pieces>BW_Buff15_Place</Pieces>
+    <Pieces>BW_Buff16_Place</Pieces>
+    <Pieces>BW_Buff17_Place</Pieces>
+    <Pieces>BW_Buff18_Place</Pieces>
+    <Pieces>BW_Buff19_Place</Pieces>
+    <Pieces>BW_Buff20_Place</Pieces>
+    <Pieces>BW_Buff21_Place</Pieces>
+    <Pieces>BW_Buff22_Place</Pieces>
+    <Pieces>BW_Buff23_Place</Pieces>
+    <Pieces>BW_Buff24_Place</Pieces>
+    <Pieces>BW_Buff25_Place</Pieces>
+    <Pieces>BW_Buff26_Place</Pieces>
+    <Pieces>BW_Buff27_Place</Pieces>
+    <Pieces>BW_Buff28_Place</Pieces>
+    <Pieces>BW_Buff29_Place</Pieces>
+    <Pieces>BW_Buff30_Place</Pieces>
+    <Pieces>BW_Buff31_Place</Pieces>
+    <Pieces>BW_Buff32_Place</Pieces>
+    <Pieces>BW_Buff33_Place</Pieces>
+    <Pieces>BW_Buff34_Place</Pieces>
+    <Pieces>BW_Buff35_Place</Pieces>
+    <Pieces>BW_Buff36_Place</Pieces>
+    <Pieces>BW_Buff37_Place</Pieces>
+    <Pieces>BW_Buff38_Place</Pieces>
+    <Pieces>BW_Buff39_Place</Pieces>
+    <Pieces>BW_Buff40_Place</Pieces>
+    <Pieces>BW_Buff41_Place</Pieces> -->
+  </Screen>
 </XML>
